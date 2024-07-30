@@ -1,0 +1,25 @@
+1.Arrays are a contiguous block of memory locations that store elements of the same data type. Each element
+ in the array can be accessed directly by its index.
+ Advantages
+I. Constant time access
+II. Arrays have no additional overhead per element, making them memory efficient.I
+III.Easy to implement
+
+4.Add
+TC: O(1) in case of simple array not resizable array(ArrayList)
+Search
+TC:O(n) in WC we've to traverse full array
+Traverse
+TC:O(n) as we've to visit every element
+Delete
+TC:O(n)
+Deletion in array is worst as after deletion we've to shift all
+succeeding element
+
+Limitations of Array
+1.fixed size
+2.Deletion inefficient
+3.Inserting at a given index is inefficient as there is shifting overhead
+4.not suitable for larger data sets
+
+Arrays should be used when the dataset is not very large.

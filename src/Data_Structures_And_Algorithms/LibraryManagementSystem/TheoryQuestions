@@ -1,0 +1,27 @@
+1.In linear search, element is searched by traversing the array linearly.
+If element at any index becomes equal to the element we are searching then that index is returned
+otherwise if element is not found we return -1 or null,etc according to return type.
+
+In binary search an array is divided into halves and on the basis of its
+value whether greater or smaller or equal to middle value the array is further
+divided if element is equal to arr[mid] then it is returned.
+
+
+
+4.Linear Search
+Time Complexity
+Best Case: O(1)
+If the element is found at the beginning
+Average Case: O(n)
+Worst Case: O(n)
+If the element is at the end or not present
+
+Binary Search
+Time Complexity
+Best Case: O(1)
+if the middle element is the desired element
+Average Case: O(log n)
+Worst Case: O(log n)
+
+Linear search is used when the array is small or unsorted.
+Binary search is used if array is large and sorted.

@@ -1,0 +1,28 @@
+Singly Linked List
+In singly linked list, each node contains a data part and a next pointer
+pointing to the next node.
+
+Doubly Linked List
+In doubly Linked list, each node contains a data part, a reference to the next node,
+and a reference to the previous node.
+It allows traversal in both directions, making operations like deletion and insertion more flexible.
+
+4.Insertion
+TC:O(n) as we've to traverse the entire list to insert at end.
+Deletion
+TC:O(n)
+In the worst case, we need to traverse the entire list to find and delete the task.
+Searching
+TC:O(n)
+as we've to traverse the entire list if the item we are searching is at tail.
+Traversal
+TC:O(n)
+as we've to traverse the entire list
+
+Advantages of Linked List over Arrays
+i.Dynamic size
+Linked List can grow and shrink completely
+ii.Efficient insertion/deletions
+In Linked List links are adjusted not the whole list is shifted like arrays.
+
+

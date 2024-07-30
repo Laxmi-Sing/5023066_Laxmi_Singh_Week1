@@ -1,0 +1,17 @@
+1.Big O notation is a mathematical notation used to find the upper bound
+of the complexity of an algorithm. It is the maximum time taken by algorithm to execute.It helps in analyzing the
+worst case scenario.
+
+Best case is the scenario where the algorithm performs the minimum number of operation. Like in linear search
+best case is when element to be searched at is present at 0th index and in binary search it is when element we are searching
+for is at mid index.
+Average Case is the scenario where the algorithm performs an average number of operations over all possible inputs.
+Worst case is the scenario where the algorithm performs the maximum number of operations i.e. if the array is element is at last index
+in linear search and in binary search when the target element is either in the first half or the second half of the divided array.
+
+4.Linear Search Best Case TC: O(1) Worst case TC: O(n)
+Binary Search Best Case TC: O(1) Worst case TC: O(log n)
+
+Linear search is easy to implement but it's time complexity is
+not good while working with large data sets. If the dataset is large
+binary search should be used but it requires sorted array.

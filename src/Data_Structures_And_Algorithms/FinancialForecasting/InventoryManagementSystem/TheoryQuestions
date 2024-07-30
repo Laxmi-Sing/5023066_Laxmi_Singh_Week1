@@ -1,0 +1,14 @@
+1. Data Structures and algorithms are essential in handling large inventories because when the size of the inventory will grow then deleting
+, updating and inserting an entry will become difficult if a suitable data struct will not be used.
+Therefore, to increase performance and to keep data in an organized manner using data structures and algorithms is essential.
+
+ArrayList and HashMap will be the suitable data structures. HashMap will be more better as
+it performs insertion, deletion in O(1) time which is faster as compared to insertion and deletion in ArrayList.
+
+4.I've used HashMap for performing all the operations
+Addition-> TC:O(1)
+Deletion-> TC:O(1)
+Updation-> TC:O(1)
+
+We can optimize these operations by maintaining an optimal load factor i.e. 0.75 and
+also by setting an initial capacity based on expected inventory size can reduce rehashing.

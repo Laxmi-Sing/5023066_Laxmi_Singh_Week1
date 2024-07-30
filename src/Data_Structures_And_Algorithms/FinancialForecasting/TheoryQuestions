@@ -1,0 +1,11 @@
+1.Recursion is a method of solving problems where the function calls itself
+and returns or stops when the base condition meets. It gives an elegant and
+clear method for breaking down big issues into smaller, more manageable sub problems.
+
+4.The time complexity of the recursive algorithm is O(n) because each
+period results in a single recursive call until the base case is reached.
+Each call does a constant amount of work, so the total time complexity is linear with respect to the number of periods.
+
+Memoization is a  technique to store the results of expensive function calls and reuse them when the same inputs occur
+again, thus saving computation time.
+
